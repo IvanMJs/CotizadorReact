@@ -41,7 +41,7 @@ class Formulario extends Component {
         return ( 
             <form onSubmit = {this.calcularPrestamo}>
                 <div>
-                    <label>Cantidad Prestamo: </label>
+                    <label>Cantidad Préstamo: </label>
                     <input 
                         onChange ={this.actualizarState}
                         type= "number" 
@@ -54,10 +54,10 @@ class Formulario extends Component {
                     <select onChange ={this.actualizarState} name="plazo"
                      className="u-full-width">
                             <option value="">Seleccionar</option>
-                            <option value="3">3 Meses</option>
-                            <option value="6">6 Meses</option>
-                            <option value="12">12 Meses</option>
-                            <option value="24">24 Meses</option>
+                            <option value="3">3 meses</option>
+                            <option value="6">6 meses</option>
+                            <option value="12">12 meses</option>
+                            <option value="24">24 meses</option>
                     </select>
                 </div>
                 <div>

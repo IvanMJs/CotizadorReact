@@ -57,7 +57,7 @@ class App extends Component {
 
     return (
       <Fragment>
-        <h1>Cotizador de Prestamos</h1>
+        <h1>Cotizador de Préstamos</h1>
         <div className="container">
           <Formulario 
             datosPrestamo={this.datosPrestamo} 
